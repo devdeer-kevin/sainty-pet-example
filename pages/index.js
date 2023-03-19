@@ -18,11 +18,6 @@ export default function IndexPage({ pets }) {
           </ul>
         )}
         {!pets.length > 0 && <p>No pets to show</p>}
-        {pets.length > 0 && (
-          <div>
-            <pre>{JSON.stringify(pets, null, 2)}</pre>
-          </div>
-        )}
         {!pets.length > 0 && (
           <div>
             <div>¯\_(ツ)_/¯</div>
